@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>MacTools Personal</title>
+    <item>
+      <title>2.0.2 (72.1)</title>
+      <pubDate>Sun, 18 Oct 2026 16:49:37 +0000</pubDate>
+      <sparkle:version>72.1</sparkle:version>
+      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/olegy/mactools-personal-dist/releases/download/build-1/MacTools-Nightly-2.0.2-72.1.zip" length="12581048" type="application/octet-stream" sparkle:edSignature="CGW7dpIKpzv+A+yqWP8wjEPA96qz6pLC4VQZmHNV3fExy1LHtO6Ry8P0GGCgvZX8xLpytsmTtvsZCLSYn0+EBw=="/>
+    </item>
+  </channel>
+</rss>
