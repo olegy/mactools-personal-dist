@@ -1,7 +1,7 @@
 {
   "app": "b90b4430523b2b5336deff38afdcfb9897caa8806f17e5d5834389789ac6e792",
   "appBuild": "72.1",
-  "buildNumber": 1,
+  "buildNumber": 2,
   "plugins": {
     "action-grid": "fe2f52654b2aea2ef3b3aa6193ee15e2e82f7c897e1b7d703b66e7f8f1be4743",
     "activity-bar": "a0a39d3f481dc927758011fbe676213a6a893b75556e3a0604a13c6cf65cba0b",
@@ -66,10 +66,11 @@
     "trackpad-gestures": "eabb94e8f99162bee97adc0118e750e85ee8e646e6159582f93dcfba7679d715",
     "trackpad-scale": "91319071d500a95949fb7ae094063a7582fd526b44b61147889830a48e1a52b2",
     "translator": "c97921ae2aeda1f6d02a18bb2c9f15993b69be6b7b2d473b7d64a89e75dbfcac",
+    "window-borders": "a1b0f479d53f5f7549de052a3b6ea9b55af49f1299553da54623f27f11645b0e",
     "window-layouts": "9a3d147f07b6cdaa5b7dc43e3d692ff749aa3f2dd428f6783a8836dc4d04114a",
     "window-switcher": "33c8d713de3cbe5014e585257187e81e097eef79b1fe1b15e50e886c97d26453",
     "xcode-clean": "154c02b29894e3e08277181c1c3f0281ede58f9b909019c57ea3e4a0fad0b1e2",
     "zsh-config": "d0092b942a3fae94db60abf004fff296a54965985d3558a4b0b0e9abd9c77b9e"
   },
-  "sourceCommit": "ffda2a27d3c25a8c34ea79ac238c64272decf7b5"
+  "sourceCommit": "8f84d5d30eabbaa67de2edb9afce398dcaf5d7a5"
 }
