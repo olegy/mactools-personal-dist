@@ -1,6 +1,6 @@
 {
   "catalogID" : "com.ggbond.mactools.plugins",
-  "generatedAt" : "2026-10-19T08:11:03Z",
+  "generatedAt" : "2026-10-19T10:16:38Z",
   "minimumHostVersion" : "1.2.1",
   "pluginKitVersion" : 7,
   "plugins" : [
@@ -26546,9 +26546,9 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "e22528665c2aba2f8eb72c38e7c9326753472b53ab9a78d5ce04771eeaed963f",
-        "size" : 159864,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-2/window-borders.mactoolsplugin.zip"
+        "sha256" : "99431db027ec3aa8088adf06978682e7d80e36914cd9805eca6b9d33f409b1da",
+        "size" : 165448,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-3/window-borders.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
@@ -26630,7 +26630,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-2",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-3",
       "requirements" : {
         "applications" : [
 
@@ -26691,7 +26691,7 @@
         ]
       },
       "summary" : "在当前活跃窗口周围绘制彩色边框。",
-      "version" : "1.2.1"
+      "version" : "1.3.1"
     },
     {
       "actions" : {
@@ -30691,6 +30691,6 @@
   "schemaVersion" : 3,
   "signature" : {
     "algorithm" : "ed25519",
-    "value" : "9ygyguf+ohmXF0P+Zpnj99eCwfOTym+kcTi/Dqol+UE03GbR1zQ+L89ewkksTN+8H4pwjnsuy9LeNxua4MNzBA=="
+    "value" : "WRjnT+PvJzkevgS7QwWqTtaZqv4qlVLvi65ut8gSPINyFjnDup5MXFcCr1L5uFoVYzMEIulz8oQxdQarWcIpCQ=="
   }
 }
