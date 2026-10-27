@@ -1,6 +1,6 @@
 {
   "catalogID" : "com.ggbond.mactools.plugins",
-  "generatedAt" : "2026-10-19T10:16:38Z",
+  "generatedAt" : "2026-10-27T14:39:31Z",
   "minimumHostVersion" : "1.2.1",
   "pluginKitVersion" : 7,
   "plugins" : [
@@ -236,14 +236,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "52b4881df1b79e84b965e8f53d13bf856f825eebe4fee26e0a5584518c50d3f5",
-        "size" : 572422,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/action-grid.mactoolsplugin.zip"
+        "sha256" : "458029a167d3cb0162c7403c50cfe6539eb3e1c3246f52d92929c962c01b21a9",
+        "size" : 309472,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/action-grid.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -320,7 +326,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -351,7 +357,7 @@
         ]
       },
       "summary" : "在指针附近打开用户配置的常用操作网格。",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -708,14 +714,21 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "e0e4864c23a5b1568f028384fa3160a754e26ce97f65feb042af6ba624c582d6",
-        "size" : 917291,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/activity-bar.mactoolsplugin.zip"
+        "sha256" : "23013191f630e25a4d94083e806b8998de9f328883f1c58404fa3c62a5579e9f",
+        "size" : 518601,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/activity-bar.mactoolsplugin.zip"
       },
       "permissions" : [
         "inputMonitoring"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "local-activation",
+          "history"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -798,7 +811,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -829,7 +842,7 @@
         ]
       },
       "summary" : "统计输入、前台应用使用时长和 AI 编程活动",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -1234,15 +1247,23 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "ade3402b20ad057bb81e013b1daeb21116592cfcb35fe66f648af7dc61c028d1",
-        "size" : 1028735,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/ai-assistant.mactoolsplugin.zip"
+        "sha256" : "c4b40bb80bb85aadd4bf8a1548c71fd7db23ca73c01e59b922781117389bf03c",
+        "size" : 614305,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/ai-assistant.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "credentials",
+          "permissions",
+          "private-content"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -1292,7 +1313,8 @@
           "ai-requests"
         ],
         "dataPersisted" : [
-          "plugin-configuration"
+          "plugin-configuration",
+          "custom-prompt-text"
         ],
         "diagnosticExportsContainUserData" : false,
         "networkDomains" : [
@@ -1320,7 +1342,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -1382,7 +1404,7 @@
         ]
       },
       "summary" : "划词调用 AI 翻译、总结、润色等",
-      "version" : "0.1.1"
+      "version" : "0.4.1"
     },
     {
       "capabilities" : {
@@ -1549,14 +1571,22 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "0b4ab16f9048191eb7c7edf2bc8d06a7bfb52dcce67d59d45ed24699a49b6c6f",
-        "size" : 504924,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/ai-usage.mactoolsplugin.zip"
+        "sha256" : "016876cb8e112a127d1222433d72364f36b9797916ef79317e779d0af70300c4",
+        "size" : 288056,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/ai-usage.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "credentials",
+          "permissions",
+          "history"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -1635,7 +1665,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -1666,7 +1696,7 @@
         ]
       },
       "summary" : "查看 Codex 与 Claude Code 订阅额度和重置时间",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -1699,13 +1729,13 @@
                   "installed",
                   "applications"
                 ],
-                "localOnlyIdentity" : true,
+                "localOnlyIdentity" : false,
                 "parameters" : [
                   {
                     "id" : "entryID",
                     "isRequired" : true,
                     "kind" : "string",
-                    "portability" : "localOnly"
+                    "portability" : "portable"
                   }
                 ],
                 "parameterSummary" : {
@@ -1734,7 +1764,8 @@
                   "automatic-rule",
                   "action-grid",
                   "trackpad-gesture",
-                  "manual"
+                  "manual",
+                  "app-intent"
                 ],
                 "title" : {
                   "ar" : "فتح التطبيق",
@@ -1909,14 +1940,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "08be8a4fdf05a8d487b63c460db4068aa08097c82b82619a0c3f974a2eaaefe4",
-        "size" : 211804,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/app-hotkey.mactoolsplugin.zip"
+        "sha256" : "4eed6fc4bb37883adef4775e1ace481431d17a593dcb5d7dc32b098a0a7fe8c9",
+        "size" : 205237,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/app-hotkey.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "application-paths"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -1994,7 +2031,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -2025,7 +2062,7 @@
         ]
       },
       "summary" : "为常用应用绑定全局快捷键，快速打开或切换到前台",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -2303,14 +2340,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "de324fd0617538355c1a25bfa47982ba36f2b8d8499b5afa39d71c9fa2a68a57",
-        "size" : 325987,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/app-volume.mactoolsplugin.zip"
+        "sha256" : "e08c80e5d53403a32ef1934e201683b70de82cbe0a85a982302250e67cc614af",
+        "size" : 201174,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/app-volume.mactoolsplugin.zip"
       },
       "permissions" : [
         "system-audio-recording"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "permissions",
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -2389,7 +2433,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -2453,7 +2497,7 @@
         ]
       },
       "summary" : "分别调节正在播放音频的应用音量",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -2811,16 +2855,22 @@
           "summary" : "切換系統亮色與深色外觀"
         }
       },
-      "minimumHostVersion" : "1.3.1",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "992062e275de806d37091175e221384e2cd692603fc189e5d02a1b0f0dc7bc99",
-        "size" : 145382,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/appearance.mactoolsplugin.zip"
+        "sha256" : "3a755c73e29b47424fe419411ff76d76b61d1ea8520502aa22f3a67e2fcd9326",
+        "size" : 100126,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/appearance.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -2897,7 +2947,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -2934,7 +2984,7 @@
         }
       },
       "summary" : "切换系统亮色与深色外观",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -3182,14 +3232,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "60d6ec586c17b687899873954019e38666d79573327f0dcf7f911100ab103e02",
-        "size" : 751878,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/apple-shortcuts.mactoolsplugin.zip"
+        "sha256" : "e4644dbebe7bd02fc1a22b4025cb6b9bf48c86b14225606c0f555b04d7481f2b",
+        "size" : 402944,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/apple-shortcuts.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "private-content"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -3267,7 +3323,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
           {
@@ -3331,7 +3387,7 @@
         ]
       },
       "summary" : "发现并运行现有的 Apple 快捷指令。",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -3634,16 +3690,22 @@
           "summary" : "自動隱藏Dock，提供更乾淨的桌面環境"
         }
       },
-      "minimumHostVersion" : "1.3.1",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "6073d090dfd2e67e2fa983612f595b6bf25a6fa2ef04e4427167dca1fc5f4ec9",
-        "size" : 116622,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/auto-hide-dock.mactoolsplugin.zip"
+        "sha256" : "4b3b0ff32738fe9de1eb5b57d960f34d4c0ccbc2c0aeb4d1188a15e535b57254",
+        "size" : 84399,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/auto-hide-dock.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -3720,7 +3782,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -3751,7 +3813,7 @@
         ]
       },
       "summary" : "自动隐藏程序坞，提供更干净的桌面环境",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -4151,14 +4213,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "d34f2ad442af38b4596f0be74ca39a0d6850fa45276aba7322f485d714359cc8",
-        "size" : 147140,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/auto-hide-menu-bar.mactoolsplugin.zip"
+        "sha256" : "fd67bb077bdd94fc25b918421aaab8d165ef9fa6c06412360c29e774f10f29e9",
+        "size" : 101182,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/auto-hide-menu-bar.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -4235,7 +4303,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -4266,7 +4334,7 @@
         ]
       },
       "summary" : "自动隐藏菜单栏，提供更完整的屏幕显示空间",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -4658,14 +4726,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "bfdebb31dc2b539343f52d7237f5ac717b9ee378efac16d90e67b537fc8cbda7",
-        "size" : 705177,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/auto-input.mactoolsplugin.zip"
+        "sha256" : "79d488deb8ce747ff9856bc7d991fbf3c3ec954ec6a23870679ad6f3de345cca",
+        "size" : 462230,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/auto-input.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "application-paths"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -4743,7 +4817,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -4804,7 +4878,7 @@
         ]
       },
       "summary" : "按应用记住并自动切换输入法",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -5283,14 +5357,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "0da081fe11c51413a1dfbfb8ed65396ef47adda770eb5c95e56c51950e33d12f",
-        "size" : 333265,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/battery-charge-limit.mactoolsplugin.zip"
+        "sha256" : "e25d1eaffacbaeecbe6dbfd8a962aed4fa8ebcffa911e844d062bf85cee3fc46",
+        "size" : 240350,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/battery-charge-limit.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "local-activation",
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -5367,7 +5448,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -5459,7 +5540,7 @@
         ]
       },
       "summary" : "设置电池充电上限，达到上限后停止充电；不自动恢复，由用户决定何时继续充电",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -5621,15 +5702,22 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "811bfabf714ad1013091d7ae0f383488804f5d035879d50df1dd0a7d04b11522",
-        "size" : 626389,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/calendar.mactoolsplugin.zip"
+        "sha256" : "e8e222d1da48f2e86317059a78cf9d97f9559017ab8b2df6abf447daf4656ca3",
+        "size" : 384465,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/calendar.mactoolsplugin.zip"
       },
       "permissions" : [
         "calendarFullAccess",
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "permissions",
+          "private-content"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -5706,7 +5794,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -5768,7 +5856,7 @@
         ]
       },
       "summary" : "查看日期、节假日和系统日程",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -6469,14 +6557,21 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "aabb4d6580ec91269daed2c9709a612cab8b0eb984153645a79efe8e33435482",
-        "size" : 6009889,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/clipboard.mactoolsplugin.zip"
+        "sha256" : "5c8b88c44b393ee6e1ef4295647aa752b68ee76c42a12d189a3756154a30dcdc",
+        "size" : 3039708,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/clipboard.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "private-content",
+          "local-activation"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools/blob/main/docs/superpowers/specs/2026-08-19-clipboard-history.md",
         "examples" : [
@@ -6528,7 +6623,8 @@
         ],
         "dataPersisted" : [
           "encrypted-clipboard-history",
-          "local-encryption-key"
+          "local-encryption-key",
+          "plugin-configuration"
         ],
         "diagnosticExportsContainUserData" : false,
         "networkDomains" : [
@@ -6556,7 +6652,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -6652,7 +6748,7 @@
         }
       },
       "summary" : "搜索历史记录并管理可重复使用的片段和已存项目。",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -6860,14 +6956,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "1997814175dc82aa2a5fd7e780172af8e7d9937f0724883c08d2f48c45ca2145",
-        "size" : 97917,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/clipboard-clear.mactoolsplugin.zip"
+        "sha256" : "dab35bbe6bb704dc67177d5b8e768f4659f049fb3312a7bafff1de2c63f08442",
+        "size" : 72794,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/clipboard-clear.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -6944,7 +7046,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -6975,7 +7077,7 @@
         ]
       },
       "summary" : "一键清空当前剪贴板内容",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -7213,14 +7315,22 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "e2e7c20d7a644f6d2d709a1e92234f68121c68b46afba8006b466193b12ebd88",
-        "size" : 403575,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/cloudflare-r2.mactoolsplugin.zip"
+        "sha256" : "87e62499bfb44af5b5a849b7d36afa3ed4bdde71e7d38333a4847e2ec8eebfb3",
+        "size" : 275194,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/cloudflare-r2.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "credentials",
+          "local-activation",
+          "history"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -7298,7 +7408,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -7359,7 +7469,7 @@
         ]
       },
       "summary" : "上传文件到 Cloudflare R2",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -7539,14 +7649,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "0e70643572c2d1961e95f0d76dbfc346496ac26855444ea0468eed86547325d9",
-        "size" : 1422305,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/com.mactools.plugin.storage-explorer.mactoolsplugin.zip"
+        "sha256" : "7e636b6d945edac1ea666a9bfedf0578e85e76a275474e9e29dd8040b491f76d",
+        "size" : 729110,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/com.mactools.plugin.storage-explorer.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -7639,7 +7755,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -7670,7 +7786,7 @@
         ]
       },
       "summary" : "以层级视图直观分析磁盘占用，找出大文件，在审阅确认后移至废纸篓",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "capabilities" : {
@@ -7824,14 +7940,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "405451d4e451f2a1e0a39ed363053e57fa93e8bf29064ac46e409b091a530925",
-        "size" : 438383,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/container-indicator.mactoolsplugin.zip"
+        "sha256" : "a41891d7f448aadd173340f97a14feca8a11e86cec61589d4b17195e1d85ea21",
+        "size" : 240310,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/container-indicator.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -7908,7 +8030,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -7969,7 +8091,7 @@
         ]
       },
       "summary" : "查看并控制 container 服务、容器与虚拟机",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "capabilities" : {
@@ -8125,14 +8247,21 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "ab293064abeed1d825c5f0714a0659b2c61a696a9a9d72924de2b2c0205cad27",
-        "size" : 1246312,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/device-battery.mactoolsplugin.zip"
+        "sha256" : "8a48c7c3921f63651d2356c36ba2be63f4d465f22eaf53c3c99445533d3322b3",
+        "size" : 672880,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/device-battery.mactoolsplugin.zip"
       },
       "permissions" : [
         "inputMonitoring"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state",
+          "permissions"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -8209,7 +8338,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -8240,7 +8369,7 @@
         ]
       },
       "summary" : "查看 Mac、Apple 移动设备、蓝牙外设和雷柏/迈从鼠标电量",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -8490,14 +8619,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "c6c00fc4171583a7736d5ea2b7d51ce9e918851ba2733f308740991e61717c67",
-        "size" : 1787328,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/disk-clean.mactoolsplugin.zip"
+        "sha256" : "937ca34922a6f9f68e4e2112121cab2346edffa6496398943c06ac1768e54c9e",
+        "size" : 924765,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/disk-clean.mactoolsplugin.zip"
       },
       "permissions" : [
         "full-disk-access"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "local-policy"
+        ],
+        "status" : "localOnly"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -8591,7 +8726,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -8622,7 +8757,7 @@
         ]
       },
       "summary" : "扫描系统缓存、开发产物与残留安装包，默认移到废纸篓，执行前校验路径安全",
-      "version" : "3.1.1"
+      "version" : "3.4.1"
     },
     {
       "actions" : {
@@ -9019,14 +9154,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "35a57740f2331923d9637fca2212ac32064b09b0e3514f6e1ca1fc6d31012f3f",
-        "size" : 580751,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/display-brightness.mactoolsplugin.zip"
+        "sha256" : "89fffe327365ab0145b14a5d10adecfcf24a309293c364e04622c76ade51bd7b",
+        "size" : 353036,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/display-brightness.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -9103,7 +9244,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -9164,7 +9305,7 @@
         ]
       },
       "summary" : "快速调节每个显示器的亮度",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -9422,14 +9563,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "2d8fcde2e59ae6e4f990a66a1ff7ba4e155d0b06f592686aeede76bac128ee32",
-        "size" : 188308,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/display-resolution.mactoolsplugin.zip"
+        "sha256" : "470e53cebce760098ceb5a084fb6e9e1d1b318b431ea061feef37a234f7fddd0",
+        "size" : 120918,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/display-resolution.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -9506,7 +9653,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -9567,7 +9714,7 @@
         ]
       },
       "summary" : "查看并切换每个显示器的分辨率",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -9790,14 +9937,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "73c641041ce5f7b4ba8c86676e8eccb6ff982affb7d0c279261b1f5fded4d411",
-        "size" : 103839,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/display-sleep.mactoolsplugin.zip"
+        "sha256" : "5d82c7f8abd96f7b5dc66a9d2d8813ceabe4d09307f372418a55ecd277a44fa4",
+        "size" : 76013,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/display-sleep.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -9874,7 +10027,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -9905,7 +10058,7 @@
         ]
       },
       "summary" : "一键让所有显示器立即进入休眠",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -10199,14 +10352,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "3a5aebc545839160f3a5b2314501f86cea71ad8c834a18905a6b5ba934fa23e8",
-        "size" : 110263,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/display-true-color.mactoolsplugin.zip"
+        "sha256" : "941d1639e745f01c93d6f958c18acae7b16cf62befba2b3ad46c0add1ccc7ac6",
+        "size" : 80120,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/display-true-color.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -10283,7 +10442,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -10314,7 +10473,7 @@
         ]
       },
       "summary" : "自动调节显示器颜色以适应环境光",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -10608,14 +10767,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "96f9cb17a268b40ba71d34a942837a0c48090f6baffd9a5cf5fe73ab4d8f16b9",
-        "size" : 381538,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/display-volume.mactoolsplugin.zip"
+        "sha256" : "a88d3c85b2b816162849b45ff948bd9f53e8aef3a5b82bcb7039b2921a00a0f4",
+        "size" : 253921,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/display-volume.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -10692,7 +10857,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -10752,7 +10917,7 @@
         ]
       },
       "summary" : "快速调节每个显示器的音量",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "capabilities" : {
@@ -10895,15 +11060,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "6631b8da4e1c3187331899d101664491815f6ba3120b8bbfe8f6322888887a71",
-        "size" : 188218,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/dock-click-minimize.mactoolsplugin.zip"
+        "sha256" : "d070f2e83f17fff5f69c7ad95f88387a239d63d531e70a41b2118b663c7c8e94",
+        "size" : 166078,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/dock-click-minimize.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
         "inputMonitoring"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -10980,7 +11151,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -11042,7 +11213,7 @@
         ]
       },
       "summary" : "点击活跃 App 的程序坞图标即可将其隐藏（如 Windows）。",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -11334,14 +11505,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "d4886a2e5625084da6b62e855a0bba3942aa7846f201fc720b113cc1f8ead79f",
-        "size" : 135914,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/dock-lock.mactoolsplugin.zip"
+        "sha256" : "9188ce7a98539d144035d4aa1c81d388a98dd72437101150c0fef0afea15d252",
+        "size" : 136864,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/dock-lock.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -11418,7 +11595,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -11479,7 +11656,7 @@
         ]
       },
       "summary" : "防止程序坞在多显示器之间意外移动",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -11662,14 +11839,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "b4cf65627ce4f56d4d5b50cacfb2123c9714cb34e69e196d2ffd23cf1bb902cf",
-        "size" : 315983,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/duo-status.mactoolsplugin.zip"
+        "sha256" : "bb87047f08a375f43e89cde00e4044c5723b2afb8783429c0d8a63e6f7e0d0a6",
+        "size" : 234086,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/duo-status.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools/blob/main/docs/plugins/duo-status.md",
         "examples" : [
@@ -11750,7 +11933,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -11781,7 +11964,7 @@
         ]
       },
       "summary" : "通过独立图标或应用主图标查看电量、网络与输出音量状态",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -12007,14 +12190,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "bc8d5eefef5bf5af21df456eda809d23e97311b2b85088e64113789b994ca016",
-        "size" : 178176,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/eject-disk.mactoolsplugin.zip"
+        "sha256" : "4ffbe4cc4299b1511bc792bb43f08d32f2dbd0e779e4b34d8d099685bb46bc4d",
+        "size" : 111826,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/eject-disk.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -12091,7 +12280,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -12122,7 +12311,7 @@
         ]
       },
       "summary" : "推出所有可移动磁盘",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -12330,14 +12519,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "6572e7a4e82fb337f2e61008afedba4ec3ba9458374f557968876d376081a8f8",
-        "size" : 142696,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/empty-trash.mactoolsplugin.zip"
+        "sha256" : "4348c4ee4555fc63a7746c6caf43b26aeb08eb243d0b49deda10a74fc5783024",
+        "size" : 94814,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/empty-trash.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -12414,7 +12609,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -12445,7 +12640,7 @@
         ]
       },
       "summary" : "清空废纸篓中的所有项目",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -12716,14 +12911,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "9d4db141e9e37235740e73569c0dc639ca3e745b3633c1a0ab0e4cdbdfa23080",
-        "size" : 467427,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/fan-control.mactoolsplugin.zip"
+        "sha256" : "8b83b1f6e223f39bf5d25932d4449a88516e7b66654a7b97f389ff3c6c0b713c",
+        "size" : 260035,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/fan-control.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -12800,7 +13001,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -12892,7 +13093,7 @@
         ]
       },
       "summary" : "管理风扇转速预设，支持自动、全速和自定义策略",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -13105,14 +13306,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "fd0930ae0dabfe545973d306be159ba05e104c43c95c9aa49c0699a61256e06b",
-        "size" : 255726,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/fix-damaged-app.mactoolsplugin.zip"
+        "sha256" : "b74a7dedba45c6d1476158dbaca38aaa844d52e78c27eb1f70bbf44f39ac320d",
+        "size" : 195633,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/fix-damaged-app.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -13189,7 +13396,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -13220,7 +13427,7 @@
         ]
       },
       "summary" : "移除隔离属性，解决「已损坏」或「不受信任」提示",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -13509,14 +13716,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "3411c41769ae8ffe4e9b10992be23add85218a495eb64943ba33ef105fa5d2f1",
-        "size" : 224216,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/hide-notch.mactoolsplugin.zip"
+        "sha256" : "0366c50a7e7aa0364f93022af7df7d7289ef3d20030588f774c0b363933def0e",
+        "size" : 171185,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/hide-notch.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -13593,7 +13806,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -13624,7 +13837,7 @@
         ]
       },
       "summary" : "自动遮挡刘海屏顶部区域",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -14045,14 +14258,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "f227c4a2e1822b3269de1f2f78b1c87bb03d5b9c87ccf599d5bc0d2433addaa6",
-        "size" : 967853,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/homebrew.mactoolsplugin.zip"
+        "sha256" : "872d8d8a80460379563bfd8653f89d502b243b5d64c859563cf06149fc7da686",
+        "size" : 508970,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/homebrew.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -14132,7 +14351,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -14193,7 +14412,7 @@
         ]
       },
       "summary" : "管理 Homebrew 包、库仓库并执行系统诊断",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -14524,15 +14743,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "f44e86ac2bee61c1107e4bb279e27a7092f17ab0ac27458b6c2bc621b3d7bbe3",
-        "size" : 567367,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/input-remapping.mactoolsplugin.zip"
+        "sha256" : "101dee21dda0d83ef3e5ec8001ead9c9bb3df60a0655b1bfe73f00e75a7975a2",
+        "size" : 328490,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/input-remapping.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
         "inputMonitoring"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "external-authorization"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -14609,7 +14834,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -14671,7 +14896,7 @@
         ]
       },
       "summary" : "将输入映射为操作",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -14990,14 +15215,21 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "a0e29046a6361c63bf58da4c3a3a97c38f88f7783c5899f0df96fa287b129ae4",
-        "size" : 1122399,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/ip-overview.mactoolsplugin.zip"
+        "sha256" : "b0bc0885291ad6e4b82209feec69d8b5e6e5e0ed5e2520baac84356d8adc9731",
+        "size" : 623642,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/ip-overview.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "history",
+          "local-policy"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -15105,7 +15337,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -15156,7 +15388,7 @@
         }
       },
       "summary" : "查看出口 IP、本地 IP、归属地与网络测速摘要",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -15564,14 +15796,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "652bde5f23d00c101d971f9f67e89964b40476c2f9a07ae94cda501042f7dd05",
-        "size" : 318376,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/keep-awake.mactoolsplugin.zip"
+        "sha256" : "8dfa06059050ccd2cd779cbc030f61c6e5d8192b045c604d2ecba5339b5c2b80",
+        "size" : 238051,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/keep-awake.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "local-activation"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -15648,7 +15886,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -15679,7 +15917,288 @@
         ]
       },
       "summary" : "保持 Mac 唤醒；可选保持屏幕常亮或让屏幕工具继续工作。MacBook 合盖运行要求连接电源",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
+    },
+    {
+      "capabilities" : {
+        "panelItems" : [
+          "row",
+          "widget"
+        ],
+        "settings" : "workspace"
+      },
+      "category" : "monitoring",
+      "discovery" : {
+        "alternativePluginIDs" : [
+
+        ],
+        "goalCategories" : [
+          "monitoring"
+        ],
+        "keywords" : [
+          "keyboard",
+          "key stats",
+          "keystrokes",
+          "trackpad",
+          "input",
+          "statistics"
+        ],
+        "localizedSynonyms" : {
+          "ar" : [
+            "إحصاءات المفاتيح",
+            "إحصاءات لوحة المفاتيح"
+          ],
+          "de" : [
+            "Tastenstatistik",
+            "Tastaturstatistik"
+          ],
+          "en" : [
+            "Key Stats",
+            "Keyboard Statistics"
+          ],
+          "es" : [
+            "Estadísticas de teclas",
+            "Estadísticas de teclado"
+          ],
+          "fr" : [
+            "Statistiques de touches",
+            "Statistiques du clavier"
+          ],
+          "ja" : [
+            "キー統計",
+            "キーボード統計"
+          ],
+          "ko" : [
+            "키 통계",
+            "키보드 통계"
+          ],
+          "pt" : [
+            "Estatísticas de teclas",
+            "Estatísticas do teclado"
+          ],
+          "ru" : [
+            "Статистика клавиш",
+            "Статистика клавиатуры"
+          ],
+          "tr" : [
+            "Tuş İstatistikleri",
+            "Klavye İstatistikleri"
+          ],
+          "zh-Hans" : [
+            "按键统计",
+            "键盘统计",
+            "触控板统计",
+            "输入统计"
+          ],
+          "zh-Hant" : [
+            "按鍵統計",
+            "鍵盤統計",
+            "觸控板統計",
+            "輸入統計"
+          ]
+        },
+        "relatedPluginIDs" : [
+
+        ],
+        "useCases" : [
+          {
+            "id" : "primary-use",
+            "title" : {
+              "ar" : "إحصاءات المفاتيح",
+              "de" : "Tastenstatistik",
+              "en" : "Key Stats",
+              "es" : "Estadísticas de teclas",
+              "fr" : "Statistiques de touches",
+              "ja" : "キー統計",
+              "ko" : "키 통계",
+              "pt" : "Estatísticas de teclas",
+              "ru" : "Статистика клавиш",
+              "tr" : "Tuş İstatistikleri",
+              "zh-Hans" : "按键统计",
+              "zh-Hant" : "按鍵統計"
+            }
+          }
+        ]
+      },
+      "displayName" : "按键统计",
+      "id" : "key-stats",
+      "localizedMetadata" : {
+        "ar" : {
+          "displayName" : "إحصاءات المفاتيح",
+          "summary" : "تتبع استخدام كل مفتاح ولوحة التتبع مع الاحتفاظ ببيانات سبعة أيام."
+        },
+        "de" : {
+          "displayName" : "Tastenstatistik",
+          "summary" : "Verfolgen Sie die Nutzung jeder Taste und des Trackpads über sieben Tage."
+        },
+        "en" : {
+          "displayName" : "Key Stats",
+          "summary" : "Track usage for every key and your trackpad, keeping the last seven days."
+        },
+        "es" : {
+          "displayName" : "Estadísticas de teclas",
+          "summary" : "Registra el uso de cada tecla y del panel táctil durante los últimos siete días."
+        },
+        "fr" : {
+          "displayName" : "Statistiques de touches",
+          "summary" : "Suivez l’utilisation de chaque touche et du pavé tactile sur les sept derniers jours."
+        },
+        "ja" : {
+          "displayName" : "キー統計",
+          "summary" : "各キーとトラックパッドの使用回数を記録し、直近 7 日分を保存します。"
+        },
+        "ko" : {
+          "displayName" : "키 통계",
+          "summary" : "모든 키와 트랙패드 사용 횟수를 기록하고 최근 7일간 보관합니다."
+        },
+        "pt" : {
+          "displayName" : "Estatísticas de teclas",
+          "summary" : "Acompanhe o uso de cada tecla e do trackpad nos últimos sete dias."
+        },
+        "ru" : {
+          "displayName" : "Статистика клавиш",
+          "summary" : "Отслеживайте использование каждой клавиши и трекпада за последние семь дней."
+        },
+        "tr" : {
+          "displayName" : "Tuş İstatistikleri",
+          "summary" : "Her tuşun ve izleme dörtgeninin kullanımını son yedi gün boyunca izleyin."
+        },
+        "zh-Hans" : {
+          "displayName" : "按键统计",
+          "summary" : "统计每个按键与触控板的使用次数，保留近七天数据"
+        },
+        "zh-Hant" : {
+          "displayName" : "按鍵統計",
+          "summary" : "統計每個按鍵與觸控板的使用次數，保留近七天資料"
+        }
+      },
+      "minimumHostVersion" : "2.1.0",
+      "package" : {
+        "sha256" : "deb4ca34b87625c3d83dbd11bbe094f4e82a25a3434de981aa5936abec3e090f",
+        "size" : 340810,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/key-stats.mactoolsplugin.zip"
+      },
+      "permissions" : [
+        "inputMonitoring"
+      ],
+      "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "local-activation",
+          "history"
+        ],
+        "status" : "localOnly"
+      },
+      "presentation" : {
+        "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
+        "examples" : [
+          {
+            "id" : "primary-use",
+            "text" : {
+              "ar" : "تتبع استخدام كل مفتاح ولوحة التتبع مع الاحتفاظ ببيانات سبعة أيام.",
+              "de" : "Verfolgen Sie die Nutzung jeder Taste und des Trackpads über sieben Tage.",
+              "en" : "Track usage for every key and your trackpad, keeping the last seven days.",
+              "es" : "Registra el uso de cada tecla y del panel táctil durante los últimos siete días.",
+              "fr" : "Suivez l’utilisation de chaque touche et du pavé tactile sur les sept derniers jours.",
+              "ja" : "各キーとトラックパッドの使用回数を記録し、直近 7 日分を保存します。",
+              "ko" : "모든 키와 트랙패드 사용 횟수를 기록하고 최근 7일간 보관합니다.",
+              "pt" : "Acompanhe o uso de cada tecla e do trackpad nos últimos sete dias.",
+              "ru" : "Отслеживайте использование каждой клавиши и трекпада за последние семь дней.",
+              "tr" : "Her tuşun ve izleme dörtgeninin kullanımını son yedi gün boyunca izleyin.",
+              "zh-Hans" : "统计每个按键与触控板的使用次数，保留近七天数据",
+              "zh-Hant" : "統計每個按鍵與觸控板的使用次數，保留近七天資料"
+            }
+          }
+        ],
+        "license" : "GPL-3.0-only",
+        "longDescription" : {
+          "ar" : "تتبع استخدام كل مفتاح ولوحة التتبع مع الاحتفاظ ببيانات سبعة أيام.",
+          "de" : "Verfolgen Sie die Nutzung jeder Taste und des Trackpads über sieben Tage.",
+          "en" : "Track usage for every key and your trackpad, keeping the last seven days.",
+          "es" : "Registra el uso de cada tecla y del panel táctil durante los últimos siete días.",
+          "fr" : "Suivez l’utilisation de chaque touche et du pavé tactile sur les sept derniers jours.",
+          "ja" : "各キーとトラックパッドの使用回数を記録し、直近 7 日分を保存します。",
+          "ko" : "모든 키와 트랙패드 사용 횟수를 기록하고 최근 7일간 보관합니다.",
+          "pt" : "Acompanhe o uso de cada tecla e do trackpad nos últimos sete dias.",
+          "ru" : "Отслеживайте использование каждой клавиши и трекпада за последние семь дней.",
+          "tr" : "Her tuşun ve izleme dörtgeninin kullanımını son yedi gün boyunca izleyin.",
+          "zh-Hans" : "统计每个按键与触控板的使用次数，保留近七天数据",
+          "zh-Hant" : "統計每個按鍵與觸控板的使用次數，保留近七天資料"
+        },
+        "publisher" : "MacTools",
+        "screenshots" : [
+
+        ],
+        "supportURL" : "https://github.com/ggbond268/MacTools/issues"
+      },
+      "privacy" : {
+        "allowsUserConfiguredDomains" : false,
+        "dataObserved" : [
+          "input-events",
+          "usage-statistics"
+        ],
+        "dataPersisted" : [
+          "plugin-configuration",
+          "usage-statistics"
+        ],
+        "diagnosticExportsContainUserData" : false,
+        "networkDomains" : [
+
+        ],
+        "networkUse" : "none",
+        "processesSensitiveUserContent" : false,
+        "retention" : {
+          "policy" : "user-controlled"
+        },
+        "telemetry" : "none"
+      },
+      "relationships" : {
+        "includedPackIDs" : [
+
+        ],
+        "relatedPluginIDs" : [
+
+        ],
+        "suggestedRecipeIDs" : [
+
+        ],
+        "supersedesPluginIDs" : [
+
+        ]
+      },
+      "releaseChannel" : null,
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
+      "requirements" : {
+        "applications" : [
+
+        ],
+        "architectures" : [
+          "arm64",
+          "x86_64"
+        ],
+        "executables" : [
+
+        ],
+        "hardware" : [
+
+        ],
+        "minimumMacOSVersion" : "14.0",
+        "permissionIDs" : [
+          "inputMonitoring"
+        ],
+        "requiresRelaunch" : false,
+        "setupComplexity" : "none"
+      },
+      "setup" : {
+        "optionalSurfaces" : [
+
+        ],
+        "steps" : [
+
+        ]
+      },
+      "summary" : "统计每个按键与触控板的使用次数，保留近七天数据",
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -16100,14 +16619,22 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "540213f4fb06e5e6fa6d07e06a2d909c7ab7080327e04db73c72b50eec516e42",
-        "size" : 706252,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/launch-control.mactoolsplugin.zip"
+        "sha256" : "7f15a38528ab2236b5a0db0efe6c6b8d935451136ca462562a9bb9def1d02078",
+        "size" : 470504,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/launch-control.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "private-content",
+          "local-activation",
+          "local-policy"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -16156,7 +16683,8 @@
           "productivity-state"
         ],
         "dataPersisted" : [
-          "plugin-configuration"
+          "plugin-configuration",
+          "user-notes"
         ],
         "diagnosticExportsContainUserData" : false,
         "networkDomains" : [
@@ -16184,7 +16712,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -16215,7 +16743,7 @@
         ]
       },
       "summary" : "查看和管理 launchctl 启动项",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -16474,14 +17002,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "168a75569eb85e74e0af1e3ea74d85dcb08ae75991f3a3455bd3a0c96881eca9",
-        "size" : 1054539,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/launchpad.mactoolsplugin.zip"
+        "sha256" : "bdffaf13468457478b5f395516af872a789efa6f63687cdeaa36ad259cbc338b",
+        "size" : 631109,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/launchpad.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "application-paths"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -16558,7 +17092,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -16589,7 +17123,7 @@
         ]
       },
       "summary" : "用全局热键或菜单栏打开应用网格，搜索并启动。",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -16800,14 +17334,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "f5df79388a0e633c9c4635a2fd6859b49d69bb6897563c70c929e62f29a86447",
-        "size" : 101310,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/lock-screen.mactoolsplugin.zip"
+        "sha256" : "b0e50b1a239354b47e39f6691dbd052c23c23e90a4a7e74e7d5a2653ed5818ca",
+        "size" : 74170,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/lock-screen.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -16884,7 +17424,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -16915,7 +17455,7 @@
         ]
       },
       "summary" : "一键立即锁定屏幕，进入密码解锁界面",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -17646,14 +18186,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "b23ca99edf07de478e4778a7a49bb2f302bbea55197c54fb199c251f11fad333",
-        "size" : 2278085,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/mac-settings.mactoolsplugin.zip"
+        "sha256" : "22a4704ba286c6a2f0c2cdc87dd8c9d683679ced0cb8eb7af8893252d482e8d8",
+        "size" : 1208615,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/mac-settings.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools/blob/main/docs/plugins/mac-settings.md",
         "examples" : [
@@ -17755,7 +18301,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -17821,7 +18367,7 @@
         }
       },
       "summary" : "搜索并集中调整当前 Mac 的常用设置",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -18075,15 +18621,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "8ac0220dee8bb901b465a8512bfa79b0bd9e440626e531c218caf5b1d0040f9b",
-        "size" : 903368,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/menu-bar-hidden.mactoolsplugin.zip"
+        "sha256" : "c7fdb0e7f539620b97efe1ab086fd58b71cb35278549b63afc5af4ca2014485a",
+        "size" : 526393,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/menu-bar-hidden.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
         "screen-recording"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools/blob/main/docs/plugins/menu-bar-hidden.md",
         "examples" : [
@@ -18164,7 +18716,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -18226,7 +18778,7 @@
         ]
       },
       "summary" : "菜单栏图标隐藏功能的设置与弹窗界面",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -18526,16 +19078,22 @@
           "summary" : "快速靜音或恢復預設麥克風輸入"
         }
       },
-      "minimumHostVersion" : "1.3.1",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "cd65a348e1682a09aba1e4fb6a53b0cc4fce562475c2a3187012d36d3c552dec",
-        "size" : 106795,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/microphone-mute.mactoolsplugin.zip"
+        "sha256" : "2a251743b48d21c1d4012cdd73a95a75e1f762c25898a3852eef4c9ac75c9a7c",
+        "size" : 79481,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/microphone-mute.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -18612,7 +19170,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -18643,7 +19201,7 @@
         ]
       },
       "summary" : "快速静音或恢复默认麦克风输入",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -18889,16 +19447,22 @@
           "summary" : "觸控板輕點 → 模擬滑鼠中鍵"
         }
       },
-      "minimumHostVersion" : "2.0.2",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "412a4889357107801f307e01d9efbc5c46fb5b869bab3e5789dd3c836a4eda28",
-        "size" : 210669,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/middle-click.mactoolsplugin.zip"
+        "sha256" : "8950c7edec10740a06569330196904ba8fc959cde81e8cc0c474a51a1d06e0e9",
+        "size" : 170905,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/middle-click.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -18975,7 +19539,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -19036,7 +19600,7 @@
         ]
       },
       "summary" : "触控板轻点 → 模拟鼠标中键",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -19226,15 +19790,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "aba36c83cc458f39a965c8148199e46d0ac8adefd5111ad3471d57735857a02f",
-        "size" : 283101,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/mouse-enhancer.mactoolsplugin.zip"
+        "sha256" : "4d26b10ba2b9d7aa9e4ea604feb1efd751b20a7780720e2179b62fdd10e011df",
+        "size" : 211011,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/mouse-enhancer.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
         "inputMonitoring"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -19311,7 +19881,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -19373,7 +19943,7 @@
         ]
       },
       "summary" : "分别调整鼠标与触控板的滚动方向",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -19660,16 +20230,22 @@
           "summary" : "降低藍光，使螢幕顏色更暖"
         }
       },
-      "minimumHostVersion" : "1.3.1",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "049ba244401f8d7f601a82e070de337334514ca6ec063cbed2d8ca7587934525",
-        "size" : 113384,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/night-shift.mactoolsplugin.zip"
+        "sha256" : "8dc303ef52d1f9bb5c9dbd5aed1a896d6ced24cae956e0aa6aa66686113da5a1",
+        "size" : 80633,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/night-shift.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -19746,7 +20322,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -19777,7 +20353,7 @@
         ]
       },
       "summary" : "降低蓝光，使屏幕颜色更暖",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -19987,14 +20563,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "33f1ee7b3618a081f1519b2261cb2ebd7527a34a3ce9e751694f6ee284be7cfd",
-        "size" : 252093,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/physical-clean-mode.mactoolsplugin.zip"
+        "sha256" : "01c9439ee02fc6e358117efc53f000215dd3f6403b65db7096f7d1c39e53bd93",
+        "size" : 155419,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/physical-clean-mode.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -20071,7 +20653,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -20132,7 +20714,7 @@
         ]
       },
       "summary" : "屏幕全黑并临时禁用键盘输入",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -20272,14 +20854,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "83124710e66f20fdf23c6f65441675ef8c85529ad932d7a441e9e86130628b9c",
-        "size" : 319056,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/power-status.mactoolsplugin.zip"
+        "sha256" : "7d4ebdfc366fde0d49aa0e1585b3ce769d992e71b8f560a9044b8498a0c3a791",
+        "size" : 285308,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/power-status.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -20357,7 +20945,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -20388,7 +20976,7 @@
         ]
       },
       "summary" : "实时查看系统功耗、电池状态和充电信息",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -20608,14 +21196,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "db7ed977691aad8ce2ad1f79aa32dc91323140f0b81d5b79d6898293826cc31e",
-        "size" : 247506,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/quit-apps.mactoolsplugin.zip"
+        "sha256" : "cc7fb31a1a27669d8f7ebff0f97d67db758852dcfc1a37a2eb727f997bb7f497",
+        "size" : 144889,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/quit-apps.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -20692,7 +21286,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -20723,7 +21317,7 @@
         ]
       },
       "summary" : "选择并退出正在运行的应用，或一键退出全部",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -20951,14 +21545,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "cc3247d4edd0d9aa4cc9f46cb3753a40953224fe72385ca8601361dee64351bd",
-        "size" : 245589,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/right-click.mactoolsplugin.zip"
+        "sha256" : "3fff0f732922376b52a83ffc6bb50ffaa135a18f7e87fbdfae56683e8e329f78",
+        "size" : 191553,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/right-click.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "application-paths",
+          "local-activation"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -21035,7 +21636,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -21096,7 +21697,7 @@
         ]
       },
       "summary" : "为 Finder 右键菜单添加新建文件夹和路径复制",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -21335,14 +21936,21 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "6aec0477219de183d12e11961c18c9a866f96a7a69002a388bd1980b09ee254d",
-        "size" : 687720,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/saved-scripts.mactoolsplugin.zip"
+        "sha256" : "7593bdc5e53d940fd8e153f597d8bbacb60fbb3b63db2af1619b8b73111ad46a",
+        "size" : 368840,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/saved-scripts.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "private-content",
+          "external-authorization"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -21423,7 +22031,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -21454,7 +22062,7 @@
         ]
       },
       "summary" : "保存并运行 AppleScript 和 Shell 脚本。",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -21833,14 +22441,21 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "578297f79182eff3346ed79f927a87d2559ec1e65a43a631cd9924d28dc7ef3d",
-        "size" : 916855,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/screenshot.mactoolsplugin.zip"
+        "sha256" : "72593181c3d5ff729c4036ce21cb6936e708983bfb7566f9982c18cca2bf4da4",
+        "size" : 523028,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/screenshot.mactoolsplugin.zip"
       },
       "permissions" : [
         "screen-recording"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "private-content",
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools/blob/main/docs/plugins/screenshot.md",
         "examples" : [
@@ -21954,7 +22569,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -22019,7 +22634,7 @@
         }
       },
       "summary" : "区域和窗口截图、标注、文字与二维码识别、贴图、滚动截图和录屏。",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -22383,14 +22998,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "ba5db11ffc0f12f0a58fc701324e07fa472a6e25741f508a314851217c78cc2f",
-        "size" : 616013,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/sidecar.mactoolsplugin.zip"
+        "sha256" : "fe2b6dd1a154153dc9a385e357e5442099fa6a4f4c3958e7120c8d4894f6a4fe",
+        "size" : 334810,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/sidecar.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -22467,7 +23088,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -22528,7 +23149,7 @@
         ]
       },
       "summary" : "连接附近可用的 Sidecar 显示器作为扩展显示器",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -22733,14 +23354,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "5f165a387718422472e0014875b79034f2968813b72c0a91dc73f06c0df282d6",
-        "size" : 250624,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/siri.mactoolsplugin.zip"
+        "sha256" : "ea714fbddafd85aaeeb18b84c6fc157dd430a2854c10bc71e293c8ad1c6f3d73",
+        "size" : 150624,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/siri.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -22818,7 +23445,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
           {
@@ -22852,7 +23479,7 @@
         ]
       },
       "summary" : "从命令面板向 Siri 发送消息",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -23143,14 +23770,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "9ffa3aaad7844dd5c38edc1153d830f51eb11be6349539472876dae76899ea22",
-        "size" : 110964,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/stage-manager.mactoolsplugin.zip"
+        "sha256" : "cdac091a0fcd7692ccbb5776d6d86aa6592f470100e0895fc1467dd58854c982",
+        "size" : 80079,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/stage-manager.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -23227,7 +23860,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -23258,7 +23891,7 @@
         ]
       },
       "summary" : "开启台前调度，集中显示当前窗口并把其他窗口收纳到侧边",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -23494,14 +24127,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "e387762a24e4a991bdb298a41e2aee2faea8b471c9396d416a8786bbb77351fe",
-        "size" : 586449,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/system-data.mactoolsplugin.zip"
+        "sha256" : "40bdb56db998e4bee0877cce2b67ff0a991c23226106feb7d44745d77bf96fa9",
+        "size" : 359570,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/system-data.mactoolsplugin.zip"
       },
       "permissions" : [
         "full-disk-access"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "history"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -23551,7 +24190,7 @@
           "file-sizes"
         ],
         "dataPersisted" : [
-
+          "plugin-configuration"
         ],
         "diagnosticExportsContainUserData" : false,
         "networkDomains" : [
@@ -23580,7 +24219,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -23611,7 +24250,7 @@
         ]
       },
       "summary" : "分类汇总 macOS 系统数据的真实占用，在 Finder 中快速定位",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -23900,14 +24539,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "ed5798ec5484547d536bc25ed30406102a1601eb49e9ea4297474bc0153ddb5b",
-        "size" : 103254,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/system-mute.mactoolsplugin.zip"
+        "sha256" : "07e4d2008df1f3b3e085b37481861c9f30e894c171cdf15a96f99549beca104d",
+        "size" : 75772,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/system-mute.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -23984,7 +24629,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -24015,7 +24660,7 @@
         ]
       },
       "summary" : "快速静音或恢复系统音频输出",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -24390,14 +25035,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "fab4edd211fe6716e0a903c9c10489a80e4a6a1768c66fb9e8573c27e9cda203",
-        "size" : 137262,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/system-power.mactoolsplugin.zip"
+        "sha256" : "b98a2c8b42008dc5be5c494e8a044581ea067d5ac62e0196499762aa9d4c7850",
+        "size" : 95149,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/system-power.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -24477,7 +25128,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -24508,7 +25159,7 @@
         ]
       },
       "summary" : "让 Mac 睡眠、退出登录、重新启动或关机",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -24759,14 +25410,20 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "fc64ca00d33f9e0f172d43a524f5e14a936c81e45b70d54f0398b100041d1f57",
-        "size" : 519659,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/system-soft-restart.mactoolsplugin.zip"
+        "sha256" : "6b5788cd33f12079d2b7cd2ada8eba51e1c92df106e7ccaa542d649601fa8131",
+        "size" : 327230,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/system-soft-restart.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -24843,7 +25500,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -24874,7 +25531,7 @@
         ]
       },
       "summary" : "重启 macOS 用户服务，尝试恢复常见运行时异常",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -25184,14 +25841,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "1afea89b1ce29cdfd93ccc49ce78121e70990cbb99af3bd6ccb4bc97969763ac",
-        "size" : 1728771,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/system-status.mactoolsplugin.zip"
+        "sha256" : "4497c072a721b89631f16c12295fe29f527aa0e203a4f031eb46df987606a4f4",
+        "size" : 880014,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/system-status.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "portable"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -25283,7 +25946,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -25314,7 +25977,7 @@
         ]
       },
       "summary" : "实时查看系统状态",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -25504,17 +26167,23 @@
           "summary" : "將自訂觸控板手勢對應為 MacTools 操作、快速鍵或中鍵點按"
         }
       },
-      "minimumHostVersion" : "2.0.2",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "c63336a419b1804b5accc7952f36f0b87869a73a14cd4b846bd0a927d32948b3",
-        "size" : 1627079,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/trackpad-gestures.mactoolsplugin.zip"
+        "sha256" : "8e6f5b44b15e100dc064e776f4937302c360e9113882c8d02770d1c650c63d19",
+        "size" : 850914,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/trackpad-gestures.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
         "inputMonitoring"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "permissions"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -25591,7 +26260,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -25653,7 +26322,7 @@
         ]
       },
       "summary" : "将自定义触控板手势映射为 MacTools 操作、快捷键或中键点击",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -25790,16 +26459,22 @@
           "summary" : "用內建 Force Touch 觸控板估算小物件重量（實驗性）"
         }
       },
-      "minimumHostVersion" : "2.0.2",
+      "minimumHostVersion" : "2.1.0",
       "package" : {
-        "sha256" : "d9929a19475f4117bb312a5e37c9848eefa55166097866e8d2f91039e0c43eaa",
-        "size" : 366576,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/trackpad-scale.mactoolsplugin.zip"
+        "sha256" : "ed13ae5b2e2394ce636fecf94aa7d62eb8547337ec76488a31b1bcb44e13f8be",
+        "size" : 256509,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/trackpad-scale.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -25876,7 +26551,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -25937,7 +26612,7 @@
         ]
       },
       "summary" : "用内置 Force Touch 触控板估算小物件重量（实验性）",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -26253,9 +26928,9 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "4f34a8687df86709d5f890d11c6c0cac50255f85b637ec1e724d7155580cfff7",
-        "size" : 853207,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/translator.mactoolsplugin.zip"
+        "sha256" : "b5e89f5ab21da518ebd5606f2f6e7eceaa708389c3c79756ede2fff87ff4d3e4",
+        "size" : 523652,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/translator.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility",
@@ -26263,6 +26938,14 @@
         "screen-recording"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "credentials",
+          "permissions",
+          "private-content"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -26313,7 +26996,8 @@
           "translation-requests"
         ],
         "dataPersisted" : [
-          "plugin-configuration"
+          "plugin-configuration",
+          "custom-prompt-text"
         ],
         "diagnosticExportsContainUserData" : false,
         "networkDomains" : [
@@ -26341,7 +27025,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -26404,7 +27088,7 @@
         ]
       },
       "summary" : "划词与截图快捷键翻译",
-      "version" : "1.1.1"
+      "version" : "1.4.1"
     },
     {
       "capabilities" : {
@@ -26546,9 +27230,9 @@
       },
       "minimumHostVersion" : "1.3.1",
       "package" : {
-        "sha256" : "99431db027ec3aa8088adf06978682e7d80e36914cd9805eca6b9d33f409b1da",
-        "size" : 165448,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-3/window-borders.mactoolsplugin.zip"
+        "sha256" : "78913326be238cae36c6b75628cd004dfd485ef2f2123517e2ff7f0d2e9794c6",
+        "size" : 165455,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/window-borders.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
@@ -26630,7 +27314,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-3",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -26691,7 +27375,7 @@
         ]
       },
       "summary" : "在当前活跃窗口周围绘制彩色边框。",
-      "version" : "1.3.1"
+      "version" : "1.4.1"
     },
     {
       "actions" : {
@@ -29382,14 +30066,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "dfe918ab6946bf8f45e0bfcde0d809291734f2648e96f5ffb288afc13b90f805",
-        "size" : 1080574,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/window-layouts.mactoolsplugin.zip"
+        "sha256" : "a06f8efdb1981784981c94533462e963f80618f624eae9f41a71cf823c94c100",
+        "size" : 605975,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/window-layouts.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "external-authorization"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -29467,7 +30157,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -29528,7 +30218,7 @@
         ]
       },
       "summary" : "移动聚焦窗口并调整其大小",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -29853,14 +30543,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "3118c0daf45298560c82a193bed3bc1afc80b25f38d855eec9f7cc8bbd641140",
-        "size" : 1486408,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/window-switcher.mactoolsplugin.zip"
+        "sha256" : "6fb8f090034584ae2bbb6b44db6e0ebfdaa1fa776d6b7c80630b73c6648e3c48",
+        "size" : 806255,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/window-switcher.mactoolsplugin.zip"
       },
       "permissions" : [
         "accessibility"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "device-state"
+        ],
+        "status" : "partial"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -29940,7 +30636,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -30019,7 +30715,7 @@
         }
       },
       "summary" : "用可配置快捷键快速切换正在运行的窗口",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "actions" : {
@@ -30256,14 +30952,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "7dbdc071ccdc5d7780e16f02692c56578c26acaff00df5dfcb805d5f5383456e",
-        "size" : 568540,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/xcode-clean.mactoolsplugin.zip"
+        "sha256" : "f66e122d4ff7591b47912938aef0d7b442cbfa0beecb8b32fc1feb800fc750f4",
+        "size" : 308751,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/xcode-clean.mactoolsplugin.zip"
       },
       "permissions" : [
 
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -30341,7 +31043,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -30372,7 +31074,7 @@
         ]
       },
       "summary" : "分类清理 Xcode DerivedData、设备支持、归档与缓存",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     },
     {
       "capabilities" : {
@@ -30551,14 +31253,20 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "6c44f5944fa330d8e6e461f9b495a6b83d950b98d1f8856b116660a1144b6e4a",
-        "size" : 533995,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-1/zsh-config.mactoolsplugin.zip"
+        "sha256" : "801cf925285bc410fdeae26f2d3fde32a086af3a7a91da2cf075c5afca720686",
+        "size" : 298287,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-4/zsh-config.mactoolsplugin.zip"
       },
       "permissions" : [
         "automation"
       ],
       "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+
+        ],
+        "status" : "none"
+      },
       "presentation" : {
         "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
         "examples" : [
@@ -30651,7 +31359,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-1",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-4",
       "requirements" : {
         "applications" : [
 
@@ -30682,7 +31390,7 @@
         ]
       },
       "summary" : "快速编辑 ~/.zshrc 等 zsh 配置文件，支持内联编辑和常用片段快速插入",
-      "version" : "2.1.1"
+      "version" : "2.4.1"
     }
   ],
   "revoked" : [
@@ -30691,6 +31399,6 @@
   "schemaVersion" : 3,
   "signature" : {
     "algorithm" : "ed25519",
-    "value" : "WRjnT+PvJzkevgS7QwWqTtaZqv4qlVLvi65ut8gSPINyFjnDup5MXFcCr1L5uFoVYzMEIulz8oQxdQarWcIpCQ=="
+    "value" : "6RnvWj3AIjCZSRRVzeXLHwyk4Il7tssvXqS2Ho2Z/nvwzdC4rYaEwnwKznsLzYU6RWK/by1cfUrimVkevhGuCQ=="
   }
 }

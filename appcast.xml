@@ -3,12 +3,12 @@
   <channel>
     <title>MacTools Personal</title>
     <item>
-      <title>2.0.2 (72.1)</title>
-      <pubDate>Sun, 18 Oct 2026 16:49:37 +0000</pubDate>
-      <sparkle:version>72.1</sparkle:version>
-      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+      <title>2.1.0 (73.4)</title>
+      <pubDate>Tue, 27 Oct 2026 14:39:35 +0000</pubDate>
+      <sparkle:version>73.4</sparkle:version>
+      <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/olegy/mactools-personal-dist/releases/download/build-1/MacTools-Nightly-2.0.2-72.1.zip" length="12581048" type="application/octet-stream" sparkle:edSignature="CGW7dpIKpzv+A+yqWP8wjEPA96qz6pLC4VQZmHNV3fExy1LHtO6Ry8P0GGCgvZX8xLpytsmTtvsZCLSYn0+EBw=="/>
+      <enclosure url="https://github.com/olegy/mactools-personal-dist/releases/download/build-4/MacTools-Nightly-2.1.0-73.4.zip" length="8159054" type="application/octet-stream" sparkle:edSignature="pu8E8kr9jXpZ6H11j7ffy2Iu0K/PBgyRiLr4kVqztH6ZpzeM/bzLbnmIYmPExQ5iVSCQC03GR871REeOpygzDw=="/>
     </item>
   </channel>
 </rss>
