@@ -1,7 +1,7 @@
 {
   "app": "697d599f700c6733f52c9f0bf302e4f4aefc90944ce7da2d077a50f833d8dbea",
   "appBuild": "74.5",
-  "buildNumber": 5,
+  "buildNumber": 6,
   "plugins": {
     "action-grid": "4f3441a1997d67302f14dcd4c9c3b7be3164b6c54ef5a2e77a0e53092042bed0",
     "activity-bar": "f6f99ebd6f77fd1e493a3ed0e6170c7f9bad2bbfd12241d2a68eb425f1d4cac7",
@@ -56,7 +56,7 @@
     "quit-apps": "4cbb7867726fce08519a2ac46f8242f9d2cc4900b891ab85c1404e8e2f9e31db",
     "right-click": "6ed08a05f2ddba8fc367b00ece8257723b2f834f11ed3a44a84f7115fa9656ef",
     "saved-scripts": "d1e633dd330795ec90b05b1d0704223fdb0892bec9c2a9a8f4990baf63854ee8",
-    "screenshot": "1d81800e9f2e8a927b9fddf10a1146bd18eaa9602b53ba691dba69d06fe2131c",
+    "screenshot": "65e2be9b280f33845693aed73e0fdab4dba92c333c08daa6f4d68d5be50557d5",
     "sidecar": "78acbd8d07c37274a89152c4a58d3a47bd19199233def113dd9811f344986f67",
     "siri": "bd79b4acf93f0d8aa9012614aac28d4747801c6883ed5776b998a79fd5ed1eb3",
     "stage-manager": "aecab627d8305394a25346a1e8cc9a65ccb7556222d5982d655d278558e85d77",
@@ -75,5 +75,5 @@
     "xcode-clean": "7dfea6fbd507e5ae8854336df35ee63f4249bf92c2e4984551d56c852b6ab5d2",
     "zsh-config": "30c269c2d6aa3e2e92a17a0b1e86362c9a9ef3d1f40203b33afd8d331e82e7df"
   },
-  "sourceCommit": "6cccb4de3169c3e1aeb571d8ced47f58840b1b46"
+  "sourceCommit": "bf7092a487a74514d7afa15f9818f2522680f1b1"
 }

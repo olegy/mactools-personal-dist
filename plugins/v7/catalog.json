@@ -1,6 +1,6 @@
 {
   "catalogID" : "com.ggbond.mactools.plugins",
-  "generatedAt" : "2026-11-04T05:42:40Z",
+  "generatedAt" : "2026-11-04T07:10:51Z",
   "minimumHostVersion" : "1.2.1",
   "pluginKitVersion" : 7,
   "plugins" : [
@@ -22515,6 +22515,60 @@
                   "zh-Hans" : "快速截图",
                   "zh-Hant" : "快速截圖"
                 }
+              },
+              {
+                "automaticEligible" : false,
+                "description" : {
+                  "ar" : "حدد منطقة للتعرّف على نصها ونسخه إلى الحافظة.",
+                  "de" : "Bereich auswählen, Text erkennen und in die Zwischenablage kopieren.",
+                  "en" : "Select a region to recognize its text and copy it to the clipboard.",
+                  "es" : "Selecciona una región para reconocer su texto y copiarlo al portapapeles.",
+                  "fr" : "Sélectionnez une zone pour reconnaître son texte et le copier dans le presse-papiers.",
+                  "ja" : "範囲を選ぶと、文字を認識してクリップボードにコピーします。",
+                  "ko" : "영역을 선택하면 텍스트를 인식해 클립보드에 복사합니다.",
+                  "pt" : "Selecione uma área para reconhecer o texto e copiá-lo para a área de transferência.",
+                  "ru" : "Выберите область, чтобы распознать текст и скопировать его в буфер обмена.",
+                  "tr" : "Bir alan seçin; metni tanınıp panoya kopyalansın.",
+                  "zh-Hans" : "框选后识别文字并复制到剪贴板。",
+                  "zh-Hant" : "框選後辨識文字並複製到剪貼簿。"
+                },
+                "externalInvocation" : "unavailable",
+                "id" : "quick-text",
+                "keywords" : [
+                  "OCR",
+                  "text recognition",
+                  "clipboard"
+                ],
+                "parameters" : [
+
+                ],
+                "permissionIDs" : [
+                  "screen-recording"
+                ],
+                "risk" : "safe",
+                "surfaces" : [
+                  "unified-search",
+                  "global-shortcut",
+                  "workflow",
+                  "action-grid",
+                  "trackpad-gesture",
+                  "manual"
+                ],
+                "systemImage" : "text.viewfinder",
+                "title" : {
+                  "ar" : "استخراج سريع للنص",
+                  "de" : "Schnelle Texterkennung",
+                  "en" : "Quick Text Capture",
+                  "es" : "Extracción rápida de texto",
+                  "fr" : "Extraction rapide du texte",
+                  "ja" : "クイック文字認識",
+                  "ko" : "빠른 텍스트 추출",
+                  "pt" : "Extração rápida de texto",
+                  "ru" : "Быстрое распознавание текста",
+                  "tr" : "Hızlı Metin Tanıma",
+                  "zh-Hans" : "快速提取文字",
+                  "zh-Hant" : "快速擷取文字"
+                }
               }
             ]
           }
@@ -22773,9 +22827,9 @@
       },
       "minimumHostVersion" : "2.0.1",
       "package" : {
-        "sha256" : "96ef421535f5c1309bf10b9a0a7de56d12fb2e8c90ec177c6f74058a86655d5c",
-        "size" : 523045,
-        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-5/screenshot.mactoolsplugin.zip"
+        "sha256" : "bba83144b42cd98675e06c77f91ef22425b8454e554bf8b60240a3bc525276db",
+        "size" : 525412,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-6/screenshot.mactoolsplugin.zip"
       },
       "permissions" : [
         "screen-recording"
@@ -22901,7 +22955,7 @@
         ]
       },
       "releaseChannel" : null,
-      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-5",
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-6",
       "requirements" : {
         "applications" : [
 
@@ -22966,7 +23020,7 @@
         }
       },
       "summary" : "区域和窗口截图、标注、文字与二维码识别、贴图、滚动截图和录屏。",
-      "version" : "1.5.1"
+      "version" : "1.6.1"
     },
     {
       "actions" : {
@@ -32166,6 +32220,6 @@
   "schemaVersion" : 3,
   "signature" : {
     "algorithm" : "ed25519",
-    "value" : "BgIWQ9gAnVxB0BEygNiKK9i5msFmd/9ZmUAMoD5UVvhe3yuzAr2E8xzcJaGdd36XWmFYruPbiUVWvm93JIEPCg=="
+    "value" : "1OveUtMWivzBmr/txVG8jER4cciSLyoMjaqGANG4PqtEOvY6rJEIXlhjy1A+9IJFfTguAVzJ13XOtlwqXLRqCg=="
   }
 }
