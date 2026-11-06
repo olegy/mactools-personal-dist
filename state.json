@@ -1,7 +1,7 @@
 {
   "app": "697d599f700c6733f52c9f0bf302e4f4aefc90944ce7da2d077a50f833d8dbea",
   "appBuild": "74.5",
-  "buildNumber": 6,
+  "buildNumber": 7,
   "plugins": {
     "action-grid": "4f3441a1997d67302f14dcd4c9c3b7be3164b6c54ef5a2e77a0e53092042bed0",
     "activity-bar": "f6f99ebd6f77fd1e493a3ed0e6170c7f9bad2bbfd12241d2a68eb425f1d4cac7",
@@ -51,6 +51,7 @@
     "mouse-enhancer": "c2575a4c48517c45d1f29970e73c5df60549c718ebd3bf13d7785c2128c5453e",
     "night-shift": "c8076c9b01baf3f7ffea0144092a8a8d7b6b30e42ab65bb3412c9aa80cf8eadf",
     "notch-hover-panel": "d178dd3deecee3bef43ad2c9633af3f2366352fe13ea7eed1d6a01a21f7489a9",
+    "notes": "120433524b3e02511f939b2055c2e847b8ff496e6d1d9ca1fd4b7c86870352ac",
     "physical-clean-mode": "a4dfda38bd3b26413432f75e85485b182d5b1a979298585025c05b7394d94360",
     "power-status": "d1c1fa9409d71e2d38c1f359c00f025fdba08741554235e8746070f59e55007f",
     "quit-apps": "4cbb7867726fce08519a2ac46f8242f9d2cc4900b891ab85c1404e8e2f9e31db",
@@ -75,5 +76,5 @@
     "xcode-clean": "7dfea6fbd507e5ae8854336df35ee63f4249bf92c2e4984551d56c852b6ab5d2",
     "zsh-config": "30c269c2d6aa3e2e92a17a0b1e86362c9a9ef3d1f40203b33afd8d331e82e7df"
   },
-  "sourceCommit": "bf7092a487a74514d7afa15f9818f2522680f1b1"
+  "sourceCommit": "dea3dc7a42a131ded7b29c836f507b69223872d7"
 }

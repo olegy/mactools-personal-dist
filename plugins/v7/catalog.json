@@ -1,6 +1,6 @@
 {
   "catalogID" : "com.ggbond.mactools.plugins",
-  "generatedAt" : "2026-11-04T07:10:51Z",
+  "generatedAt" : "2026-11-06T08:00:04Z",
   "minimumHostVersion" : "1.2.1",
   "pluginKitVersion" : 7,
   "plugins" : [
@@ -20688,6 +20688,270 @@
       "version" : "2.5.1"
     },
     {
+      "capabilities" : {
+        "panelItems" : [
+          "row"
+        ],
+        "settings" : "form"
+      },
+      "category" : "productivity",
+      "discovery" : {
+        "alternativePluginIDs" : [
+
+        ],
+        "goalCategories" : [
+          "productivity"
+        ],
+        "keywords" : [
+          "notes",
+          "note",
+          "markdown",
+          "editor",
+          "text",
+          "scratchpad",
+          "productivity"
+        ],
+        "localizedSynonyms" : {
+          "ar" : [
+            "الملاحظات"
+          ],
+          "de" : [
+            "Notizen"
+          ],
+          "en" : [
+            "Notes"
+          ],
+          "es" : [
+            "Notas"
+          ],
+          "fr" : [
+            "Notes"
+          ],
+          "ja" : [
+            "メモ"
+          ],
+          "ko" : [
+            "메모"
+          ],
+          "pt" : [
+            "Notas"
+          ],
+          "ru" : [
+            "Заметки"
+          ],
+          "tr" : [
+            "Notlar"
+          ],
+          "zh-Hans" : [
+            "笔记"
+          ],
+          "zh-Hant" : [
+            "筆記"
+          ]
+        },
+        "relatedPluginIDs" : [
+
+        ],
+        "useCases" : [
+          {
+            "id" : "primary-use",
+            "title" : {
+              "ar" : "الملاحظات",
+              "de" : "Notizen",
+              "en" : "Notes",
+              "es" : "Notas",
+              "fr" : "Notes",
+              "ja" : "メモ",
+              "ko" : "메모",
+              "pt" : "Notas",
+              "ru" : "Заметки",
+              "tr" : "Notlar",
+              "zh-Hans" : "笔记",
+              "zh-Hant" : "筆記"
+            }
+          }
+        ]
+      },
+      "displayName" : "笔记",
+      "id" : "notes",
+      "localizedMetadata" : {
+        "ar" : {
+          "displayName" : "الملاحظات",
+          "summary" : "ملاحظات Markdown بسيطة في نافذة مدمجة."
+        },
+        "de" : {
+          "displayName" : "Notizen",
+          "summary" : "Einfache Markdown-Notizen in einem kompakten Fenster."
+        },
+        "en" : {
+          "displayName" : "Notes",
+          "summary" : "Plain Markdown notes in a compact window."
+        },
+        "es" : {
+          "displayName" : "Notas",
+          "summary" : "Notas en Markdown sencillo en una ventana compacta."
+        },
+        "fr" : {
+          "displayName" : "Notes",
+          "summary" : "Des notes en Markdown simple dans une fenêtre compacte."
+        },
+        "ja" : {
+          "displayName" : "メモ",
+          "summary" : "コンパクトなウインドウで書くプレーンな Markdown メモ。"
+        },
+        "ko" : {
+          "displayName" : "메모",
+          "summary" : "작은 윈도우에서 작성하는 일반 Markdown 메모."
+        },
+        "pt" : {
+          "displayName" : "Notas",
+          "summary" : "Notas em Markdown simples numa janela compacta."
+        },
+        "ru" : {
+          "displayName" : "Заметки",
+          "summary" : "Заметки в простом Markdown в компактном окне."
+        },
+        "tr" : {
+          "displayName" : "Notlar",
+          "summary" : "Kompakt bir pencerede düz Markdown notları."
+        },
+        "zh-Hans" : {
+          "displayName" : "笔记",
+          "summary" : "在小巧的窗口中书写纯 Markdown 笔记。"
+        },
+        "zh-Hant" : {
+          "displayName" : "筆記",
+          "summary" : "在小巧的視窗中書寫純 Markdown 筆記。"
+        }
+      },
+      "minimumHostVersion" : "1.3.1",
+      "package" : {
+        "sha256" : "a699d2d7e3d07a3e97251ffdf419fbd5f6374006cdd3e61e2147aeff786b6371",
+        "size" : 688201,
+        "url" : "https://github.com/olegy/mactools-personal-dist/releases/download/build-7/notes.mactoolsplugin.zip"
+      },
+      "permissions" : [
+
+      ],
+      "pluginKitVersion" : 7,
+      "preferencesBackup" : {
+        "exclusions" : [
+          "private-content",
+          "application-paths"
+        ],
+        "status" : "partial"
+      },
+      "presentation" : {
+        "documentationURL" : "https://github.com/ggbond268/MacTools#plugins-and-settings",
+        "examples" : [
+          {
+            "id" : "primary-use",
+            "text" : {
+              "ar" : "ملاحظات Markdown بسيطة في نافذة مدمجة.",
+              "de" : "Einfache Markdown-Notizen in einem kompakten Fenster.",
+              "en" : "Plain Markdown notes in a compact window.",
+              "es" : "Notas en Markdown sencillo en una ventana compacta.",
+              "fr" : "Des notes en Markdown simple dans une fenêtre compacte.",
+              "ja" : "コンパクトなウインドウで書くプレーンな Markdown メモ。",
+              "ko" : "작은 윈도우에서 작성하는 일반 Markdown 메모.",
+              "pt" : "Notas em Markdown simples numa janela compacta.",
+              "ru" : "Заметки в простом Markdown в компактном окне.",
+              "tr" : "Kompakt bir pencerede düz Markdown notları.",
+              "zh-Hans" : "在小巧的窗口中书写纯 Markdown 笔记。",
+              "zh-Hant" : "在小巧的視窗中書寫純 Markdown 筆記。"
+            }
+          }
+        ],
+        "license" : "GPL-3.0-only",
+        "longDescription" : {
+          "ar" : "ملاحظات Markdown بسيطة في نافذة مدمجة.",
+          "de" : "Einfache Markdown-Notizen in einem kompakten Fenster.",
+          "en" : "Plain Markdown notes in a compact window.",
+          "es" : "Notas en Markdown sencillo en una ventana compacta.",
+          "fr" : "Des notes en Markdown simple dans une fenêtre compacte.",
+          "ja" : "コンパクトなウインドウで書くプレーンな Markdown メモ。",
+          "ko" : "작은 윈도우에서 작성하는 일반 Markdown 메모.",
+          "pt" : "Notas em Markdown simples numa janela compacta.",
+          "ru" : "Заметки в простом Markdown в компактном окне.",
+          "tr" : "Kompakt bir pencerede düz Markdown notları.",
+          "zh-Hans" : "在小巧的窗口中书写纯 Markdown 笔记。",
+          "zh-Hant" : "在小巧的視窗中書寫純 Markdown 筆記。"
+        },
+        "publisher" : "MacTools",
+        "screenshots" : [
+
+        ],
+        "supportURL" : "https://github.com/ggbond268/MacTools/issues"
+      },
+      "privacy" : {
+        "allowsUserConfiguredDomains" : false,
+        "dataObserved" : [
+          "note-content"
+        ],
+        "dataPersisted" : [
+          "note-content",
+          "plugin-configuration"
+        ],
+        "diagnosticExportsContainUserData" : false,
+        "networkDomains" : [
+
+        ],
+        "networkUse" : "none",
+        "processesSensitiveUserContent" : true,
+        "retention" : {
+          "policy" : "user-controlled"
+        },
+        "telemetry" : "none"
+      },
+      "relationships" : {
+        "includedPackIDs" : [
+
+        ],
+        "relatedPluginIDs" : [
+
+        ],
+        "suggestedRecipeIDs" : [
+
+        ],
+        "supersedesPluginIDs" : [
+
+        ]
+      },
+      "releaseChannel" : null,
+      "releaseNotesURL" : "https://github.com/olegy/mactools-personal-dist/releases/tag/build-7",
+      "requirements" : {
+        "applications" : [
+
+        ],
+        "architectures" : [
+          "arm64",
+          "x86_64"
+        ],
+        "executables" : [
+
+        ],
+        "hardware" : [
+
+        ],
+        "minimumMacOSVersion" : "14.0",
+        "permissionIDs" : [
+
+        ],
+        "requiresRelaunch" : false,
+        "setupComplexity" : "none"
+      },
+      "setup" : {
+        "optionalSurfaces" : [
+
+        ],
+        "steps" : [
+
+        ]
+      },
+      "summary" : "在小巧的窗口中书写纯 Markdown 笔记。",
+      "version" : "1.7.1"
+    },
+    {
       "actions" : {
         "providers" : [
           {
@@ -32220,6 +32484,6 @@
   "schemaVersion" : 3,
   "signature" : {
     "algorithm" : "ed25519",
-    "value" : "1OveUtMWivzBmr/txVG8jER4cciSLyoMjaqGANG4PqtEOvY6rJEIXlhjy1A+9IJFfTguAVzJ13XOtlwqXLRqCg=="
+    "value" : "ZQ0DtLJEA5miqM8HDuwegCva/9k427c2Q2+WVir9FU78t24kIC6kX7xUYBIxJLUhQ5US+ps5m4WwiKcFuh+OCw=="
   }
 }
